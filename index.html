@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<style>
+
+</style>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h3>My Todo Application</h3>
+    </div>
+
+    <div class="row">
+      <form action="https://www.google.com">
+        <div class="form-group">
+          <label for="todo-text">What needs to be done ?</label>
+          <input type="text" id="todo-text" placeholder="What needs to be done ?" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="add-todo-button">Add Todo</button>
+      </form>
+
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+      <ol id="todo-list" class="list-group">
+      </ol>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
